@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Login Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            text-align: center;
+            width: 100%;
+        }
+        h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .login-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .login-btn:hover {
+            background-color: #333;
+        }
+        .stats {
+            margin-top: 40px;
+            font-size: 18px;
+            color: #444;
+            background-color: #f4f4f4;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .stats h2 {
+            font-size: 24px;
+            color: #111;
+            margin-bottom: 15px;
+        }
+        .stats p {
+            margin: 12px 0;
+        }
+        .stats .highlight {
+            font-weight: bold;
+            color: #333;
+        }
+        .total-view {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #00f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TikTok Login</h1>
+        <a href="https://www.tiktok.com/auth/authorize?client_key=YOUR_TIKTOK_CLIENT_KEY&scope=YOUR_SCOPE&redirect_uri=YOUR_REDIRECT_URI" class="login-btn">
+            Login with TikTok
+        </a>
+        <div class="stats">
+            <h2>TikTok Stats</h2>
+            <p><span class="highlight">Last Used:</span> 1st September, 2025</p>
+            <p><span class="highlight">Followers Last Year:</span> 255</p>
+            <p><span class="highlight">Followers This Year:</span> 10</p>
+            <p><span class="highlight">Likes This Year:</span> 5433</p>
+            <p><span class="highlight">Likes This Month:</span> 400</p>
+            <div class="total-view">
+                <p><span class="highlight">Total Views:</span> 1M</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
