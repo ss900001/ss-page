@@ -1,0 +1,23 @@
+{
+  "name": "ss-page",
+  "version": "1.0.0",
+  "description": "Terms of Service for my app ss-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss900001/ss-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ss900001/ss-page/issues"
+  },
+  "homepage": "https://github.com/ss900001/ss-page#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
